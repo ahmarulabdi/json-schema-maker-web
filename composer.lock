@@ -1,0 +1,294 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f5f6079e6e8982a880d3457e6e503c74",
+    "packages": [
+        {
+            "name": "phplang/scope-exit",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phplang/scope-exit.git",
+                "reference": "239b73abe89f9414aa85a7ca075ec9445629192b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phplang/scope-exit/zipball/239b73abe89f9414aa85a7ca075ec9445629192b",
+                "reference": "239b73abe89f9414aa85a7ca075ec9445629192b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpLang\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Sara Golemon",
+                    "email": "pollita@php.net",
+                    "homepage": "https://twitter.com/SaraMG",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Emulation of SCOPE_EXIT construct from C++",
+            "homepage": "https://github.com/phplang/scope-exit",
+            "keywords": [
+                "cleanup",
+                "exit",
+                "scope"
+            ],
+            "support": {
+                "issues": "https://github.com/phplang/scope-exit/issues",
+                "source": "https://github.com/phplang/scope-exit/tree/master"
+            },
+            "time": "2016-09-17T00:15:18+00:00"
+        },
+        {
+            "name": "swaggest/json-diff",
+            "version": "v3.10.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swaggest/json-diff.git",
+                "reference": "f4e511708060ff7511a3743fab4aa484a062bcfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swaggest/json-diff/zipball/f4e511708060ff7511a3743fab4aa484a062bcfb",
+                "reference": "f4e511708060ff7511a3743fab4aa484a062bcfb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "phperf/phpunit": "4.8.37"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swaggest\\JsonDiff\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Viacheslav Poturaev",
+                    "email": "vearutop@gmail.com"
+                }
+            ],
+            "description": "JSON diff/rearrange/patch/pointer library for PHP",
+            "support": {
+                "issues": "https://github.com/swaggest/json-diff/issues",
+                "source": "https://github.com/swaggest/json-diff/tree/v3.10.4"
+            },
+            "time": "2022-11-09T13:21:05+00:00"
+        },
+        {
+            "name": "swaggest/json-schema",
+            "version": "v0.12.41",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swaggest/php-json-schema.git",
+                "reference": "1bb97901314f828774dd8c5b21bff889ce0b34bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swaggest/php-json-schema/zipball/1bb97901314f828774dd8c5b21bff889ce0b34bb",
+                "reference": "1bb97901314f828774dd8c5b21bff889ce0b34bb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.4",
+                "phplang/scope-exit": "^1.0",
+                "swaggest/json-diff": "^3.8.2",
+                "symfony/polyfill-mbstring": "^1.19"
+            },
+            "require-dev": {
+                "phperf/phpunit": "4.8.37"
+            },
+            "suggest": {
+                "ext-mbstring": "For better performance"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swaggest\\JsonSchema\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Viacheslav Poturaev",
+                    "email": "vearutop@gmail.com"
+                }
+            ],
+            "description": "High definition PHP structures with JSON-schema based validation",
+            "support": {
+                "email": "vearutop@gmail.com",
+                "issues": "https://github.com/swaggest/php-json-schema/issues",
+                "source": "https://github.com/swaggest/php-json-schema/tree/v0.12.41"
+            },
+            "time": "2022-08-17T11:21:43+00:00"
+        },
+        {
+            "name": "swaggest/json-schema-maker",
+            "version": "v0.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swaggest/json-schema-maker.git",
+                "reference": "303e60ceff94e84af95c68b4ac3e9e76dcc2ece8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swaggest/json-schema-maker/zipball/303e60ceff94e84af95c68b4ac3e9e76dcc2ece8",
+                "reference": "303e60ceff94e84af95c68b4ac3e9e76dcc2ece8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.6.0",
+                "swaggest/json-schema": "^0.12.27"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swaggest\\JsonSchemaMaker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Viacheslav Poturaev",
+                    "email": "vearutop@gmail.com",
+                    "homepage": "https://github.com/vearutop"
+                }
+            ],
+            "description": "Instance to JSON schema and back",
+            "homepage": "https://github.com/swaggest/json-schema-maker",
+            "keywords": [
+                "json-schema"
+            ],
+            "support": {
+                "issues": "https://github.com/swaggest/json-schema-maker/issues",
+                "source": "https://github.com/swaggest/json-schema-maker/tree/v0.3.7"
+            },
+            "time": "2021-10-28T21:58:11+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.27.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "8ad114f6b39e2c98a8b0e3bd907732c207c2b534"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/8ad114f6b39e2c98a8b0e3bd907732c207c2b534",
+                "reference": "8ad114f6b39e2c98a8b0e3bd907732c207c2b534",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-mbstring": "*"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.27-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.27.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-11-03T14:55:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

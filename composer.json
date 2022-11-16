@@ -1,0 +1,11 @@
+{
+    "name": "abdiolsera/json-schema-maker",
+    "require": {
+        "swaggest/json-schema-maker": "^0.3.7"
+    },
+    "authors": [
+        {
+            "name": "Abdi"
+        }
+    ]
+}
