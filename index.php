@@ -10,7 +10,6 @@ if (isset($_FILES['file'])) {
         $instanceValue = json_decode($fileContent);
         $schema = new \Swaggest\JsonSchema\Schema();
         $f = new \Swaggest\JsonSchemaMaker\SchemaMaker($schema);
-        $f->options->upgradeIntToNumber = true; 
         $f->addInstanceValue($instanceValue);
 
         $schemaJson = json_encode(\Swaggest\JsonSchema\Schema::export($schema));
